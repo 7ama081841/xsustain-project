@@ -1,24 +1,32 @@
+/* Styling for the textbar container */
 .textbar {
-    overflow: hidden;
+    overflow: hidden; /* Hide content that overflows the element's box */
 }
 
+/* Styling for the paragraphs inside textbar */
 .textbar p {
-    height: 54px;
-    width: 6051px;
-    text-transform: uppercase;
-    padding: 10px;
-    font-family: sans-serif;
-    font-weight: bold;
-    margin: 0px;
-    line-height: 2;
-    animation: grow 50s linear infinite;
+    height: 54px; /* Setting the height of the paragraph */
+    width: 6051px; /* Setting a large width for horizontal movement */
+    text-transform: uppercase; /* Transforming text to uppercase */
+    padding: 10px; /* Adding padding around the text */
+    font-family: sans-serif; /* Using sans-serif font family */
+    font-weight: bold; /* Setting bold font weight */
+    margin: 0px; /* Setting margin to 0 */
+    line-height: 2; /* Setting line height to create space between lines */
+    animation: grow 50s linear infinite; /* Adding animation for horizontal movement */
 }
 
+/* Keyframes for the animation named 'grow' */
 @keyframes grow {
+    /* Initial state at 0% */
     0% {
-        transform: translateX(-0%);
+        transform: translateX(-0%); /* No horizontal translation */
     }
+
+    /* Final state at 100% */
     100% {
-        transform: translateX(-100%);
+        transform: translateX(
+            -100%
+        ); /* Fully translate the text horizontally to the left */
     }
 }

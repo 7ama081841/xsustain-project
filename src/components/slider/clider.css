@@ -1,57 +1,67 @@
+/* Styles for the main clider container */
 .clider {
-    background: black;
-    margin: auto;
-    height: 315px;
+    background: black; /* Background color */
+    margin: auto; /* Center the clider */
+    height: 315px; /* Set a fixed height */
 }
 
+/* Styles for the carousel slide within the clider */
 .clider .carousel.slide {
-    width: 90%;
-    margin: auto;
+    width: 90%; /* Set the width of the carousel */
+    margin: auto; /* Center the carousel within the clider */
 }
 
+/* Styles for the carousel components */
 .clider .carousel.slide,
 .clider .carousel-inner,
 .clider .carousel-item {
-    height: 100%;
+    height: 100%; /* Set the height of carousel components */
 }
 
+/* Styles for the carousel caption */
 .clider .carousel-caption {
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: flex-end;
+    width: 100%; /* Set the width of the caption */
+    height: 100%; /* Set the height of the caption */
+    top: 0px; /* Align the caption from the top */
+    left: 0px; /* Align the caption from the left */
+    background: rgba(0, 0, 0, 0.5); /* Background color with opacity */
+    display: flex; /* Display as a flex container */
+    align-items: flex-end; /* Align items at the bottom */
 }
 
+/* Styles for elements within the carousel caption */
 .clider .carousel-caption div {
-    padding-left: 20px;
+    padding-left: 20px; /* Add padding to the left of the caption content */
 }
 
+/* Styles for heading and paragraphs within the carousel caption */
 .clider .carousel-caption div h3,
 .clider .carousel-caption div p {
-    text-align: start;
+    text-align: start; /* Align text to the start (left) */
 }
 
+/* Styles for indicators and visually-hidden elements */
 .clider .carousel-indicators,
 .clider .visually-hidden {
-    display: none;
+    display: none; /* Hide indicators and visually-hidden elements */
 }
 
+/* Styles for carousel control buttons */
 .clider .carousel-control-prev,
 .clider .carousel-control-next {
-    border: 2px solid #fff;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    margin: auto;
+    border: 2px solid #fff; /* Border style */
+    border-radius: 50%; /* Border radius for a circular shape */
+    width: 50px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    margin: auto; /* Center the controls */
 }
 
+/* Styles for the previous control button */
 .clider .carousel-control-prev {
-    left: -60px;
+    left: -60px; /* Position the button to the left */
 }
 
+/* Position the button to the left */
 .clider .carousel-control-next {
-    right: -60px;
+    right: -60px; /* Position the button to the right */
 }

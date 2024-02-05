@@ -1,17 +1,18 @@
-import React, { useEffect, useRef, useState } from "react";
-import "./videoComponent.css";
+import React, { useRef, useState } from "react";
+import "./videoComponent.css"; // Import the CSS file for styling
 import video from "../../videos/361085177_7233005603393129_7507889925289982485_n.mp4";
 import PlayArrowOutlinedIcon from "@mui/icons-material/PlayArrowOutlined";
 
 const VideoComponent = () => {
-    const [play, setPlay] = useState(false);
+    const [play, setPlay] = useState(false); // State to manage the play state of the video
 
-    const playVideo = useRef();
+    const playVideo = useRef(); // Reference for the video element
 
+    // Function to handle the play action
     const handlePlay = () => {
-        setPlay(true);
+        setPlay(true); // Set play to true
 
-        playVideo.current.play();
+        playVideo.current.play(); // Play the video
     };
 
     return (

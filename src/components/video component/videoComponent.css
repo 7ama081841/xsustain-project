@@ -1,44 +1,51 @@
+/* Styling for the videoComponent container */
 .videoComponent {
-    height: 782px;
-    position: relative;
+    height: 782px; /* Set the height of the videoComponent container */
+    position: relative; /* Set the position property to relative */
 }
 
 video {
-    width: 100%;
-    height: 100%;
+    width: 100%; /* Make the video element width 100% of its container */
+    height: 100%; /* Make the video element height 100% of its container */
 }
 
 .videoComponent .video-cover,
 .videoComponent .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    position: absolute; /* Set the position property to absolute for .video-cover and .overlay */
+    top: 0; /* Align the top edge with the top edge of the containing block */
+    left: 0; /* Align the left edge with the left edge of the containing block */
+    width: 100%; /* Make the width 100% of the containing block */
+    height: 100%; /* Make the height 100% of the containing block */
 }
 
 .videoComponent .video-cover {
+    /* Set the background image for .video-cover */
     background: url("https://s3-alpha-sig.figma.com/img/4fde/6e6c/bec89b9c993b11ee955d3232594483aa?Expires=1708300800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OMaQgqLNwM5NWF0ueXByM27yfDNgFhA4sBPOoeIFNA0lJ445fBXdbJtGnLjGepImrIL1i9hvSZmu6GN2cbC3Mjy6jlZpuQJRjpEbaI07o0tn9sQ-5PlYgYmwrY6RI1YeTvd3XHdUfNxNLnbH8hMakkKbXK72TrBizsMYTdLPRHWJ-9L8jTlR3bbmqimYZV9Fo2g~ilTyHU1MvNcVfNHSux7zRRwq3Sul-g0cIekOIMMAl3xMYoAoA5ft6YOIgXyTL~7QuYMLhM3JLwZkU54NJ-re6RQtKn9lZAz1uNbrULp8ycNNHY5RNb4pl7lvRS24u1C50okBOXXR0Toft19Orw__");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-size: cover; /* Scale the background image to cover the entire element */
 }
 
 .videoComponent .overlay {
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: rgba(
+        0,
+        0,
+        0,
+        0.5
+    ); /* Set the background color with some transparency */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
 }
 
 .play-icon {
-    border: 2px solid #fff;
-    color: #fff;
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+    border: 2px solid #fff; /* Set border properties for the play icon */
+    color: #fff; /* Set the color of the play icon */
+    border-radius: 50%; /* Make the play icon container circular */
+    width: 70px; /* Set the width of the play icon container */
+    height: 70px; /* Set the height of the play icon container */
+    display: flex; /* Use flexbox for layout within the container */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    cursor: pointer; /* Set the cursor to indicate interactivity */
 }

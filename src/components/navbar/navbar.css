@@ -1,31 +1,36 @@
+/* Styles for the main navbar container */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #ff4d20;
-    color: #fff;
+    display: flex; /* Display as a flex container */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    background: #ff4d20; /* Background color */
+    color: #fff; /* Text color */
 }
 
+/* Styles for the unordered list within the navbar */
 .navbar ul {
-    display: flex;
-    padding: 0px;
-    margin: 0px;
-    padding-left: 10px;
+    display: flex; /* Display as a flex container */
+    padding: 0px; /* Remove default padding */
+    margin: 0px; /* Remove default margin */
+    padding-left: 10px; /* Add padding to the left*/
 }
 
+/* Styles for each list item within the navbar */
 .navbar ul li {
-    list-style: none;
-    margin: 10px;
-    cursor: pointer;
+    list-style: none; /* Remove default list styling */
+    margin: 10px; /* Add margin around each item */
+    cursor: pointer; /* Change cursor to pointer on hover */
 }
 
+/* Styles for the container of contact icons */
 .navbar .contact-icons {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 16px;
-    width: 110px;
+    display: flex; /* Display as a flex container */
+    justify-content: space-between; /* Space between icons */
+    padding-right: 16px; /* Add padding to the right */
+    width: 110px; /* Set a fixed width */
 }
 
+/* Styles for the individual icons within the contact-icons container */
 .navbar .contact-icons .MuiSvgIcon-root {
-    cursor: pointer;
+    cursor: pointer; /* Change cursor to pointer on hover */
 }

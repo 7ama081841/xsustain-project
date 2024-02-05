@@ -1,7 +1,11 @@
+// Importing the Carousel component from react-bootstrap
 import Carousel from "react-bootstrap/Carousel";
+// Importing the styles for the Clider component
 import "./clider.css";
 
+// Functional component Clider
 function Clider() {
+    // Return JSX representing the Clider component
     return (
         <div className="clider">
             <Carousel data-bs-theme="dark">
@@ -49,4 +53,5 @@ function Clider() {
     );
 }
 
+// Exporting the Clider component as the default export
 export default Clider;
