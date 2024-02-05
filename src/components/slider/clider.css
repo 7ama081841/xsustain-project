@@ -1,0 +1,57 @@
+.clider {
+    background: black;
+    margin: auto;
+    height: 315px;
+}
+
+.clider .carousel.slide {
+    width: 90%;
+    margin: auto;
+}
+
+.clider .carousel.slide,
+.clider .carousel-inner,
+.clider .carousel-item {
+    height: 100%;
+}
+
+.clider .carousel-caption {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: flex-end;
+}
+
+.clider .carousel-caption div {
+    padding-left: 20px;
+}
+
+.clider .carousel-caption div h3,
+.clider .carousel-caption div p {
+    text-align: start;
+}
+
+.clider .carousel-indicators,
+.clider .visually-hidden {
+    display: none;
+}
+
+.clider .carousel-control-prev,
+.clider .carousel-control-next {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.clider .carousel-control-prev {
+    left: -60px;
+}
+
+.clider .carousel-control-next {
+    right: -60px;
+}
